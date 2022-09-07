@@ -109,3 +109,15 @@ function incrementer() {
   return fixedValue +1;
   // Only change code above this line
 };
+
+
+////Pass Arguments to Avoid External Dependence in a Function
+// The global variable
+let FixedValue = 4;
+
+// Only change code below this line
+function incrementer(arg) {
+
+  return arg +1
+  // Only change code above this line
+}
